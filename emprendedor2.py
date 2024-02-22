@@ -11,4 +11,4 @@ gastos= int(input("Ingrese los gastos totales = "))
 #Calculo de utilidades con el precio de usuarios normales y usuarios premium
 utilidades = (precio*cant_usuarios)+(1.5*precio*cant_usuariosPrem)-gastos
 
-print(f"Las utilidades son = {math.ceil(utilidades)}")
+print(f"Las utilidades son = ${math.ceil(utilidades)}")

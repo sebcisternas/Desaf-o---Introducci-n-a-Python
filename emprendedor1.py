@@ -10,4 +10,4 @@ gastos= int(input("Ingrese los gastos totales = "))
 #Calculo de utilidades
 utilidades = (precio*cant_usuarios)-gastos
 
-print(f"Las utilidades son = {math.ceil(utilidades)}")
+print(f"Las utilidades son = ${math.ceil(utilidades)}")
